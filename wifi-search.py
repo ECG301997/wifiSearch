@@ -59,7 +59,7 @@ def digitaCoordenadas(matriz1):
                 exit()
         else:
             print("Error coordenada")
-            exit()
+            exit() # UN COMENTARIO
         for x in range(len(matriz2)):
             print(f"COORDENADA [LATITUD,LONGITUD] {x+1} - {matriz2[x]}")
     return matriz2
